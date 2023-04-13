@@ -15,7 +15,6 @@
 
 <div>
 <img src="https://cdn.svgporn.com/logos/python.svg" alt="Python" width="40" height="40">
-<img src="https://cdn.svgporn.com/logos/python.svg](https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Programming" width="40" height="40">
     
 </div>
 <br/>
