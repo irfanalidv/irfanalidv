@@ -13,11 +13,10 @@
 <h3 align="left">Languages</h3>
 <br/>
 
-<div>
+<p align="left"> 
 
-        <a href="[https://heroku.com](https://www.python.org/)" target="_blank" rel="noreferrer"> <img src="https://cdn.svgporn.com/logos/python.svg" alt="Python" width="40" height="40"/> </a> 
-    
-</div>
+        <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.svgporn.com/logos/python.svg" alt="Python" width="40" height="40"/> </a> 
+
 <br/>
 
 <h3 align="left">Tools:</h3>
