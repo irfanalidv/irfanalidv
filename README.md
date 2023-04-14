@@ -37,7 +37,7 @@
 
 <div align="center">
     <p align="left">
-      <img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub stats" width="420"/>&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&hide=processing&card_width=320" alt="Top Languages" height="165">
+      <img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&theme=light&include_all_commits=true&count_private=true" alt="GitHub stats" width="420"/>&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&hide=processing&card_width=320" alt="Top Languages" height="165">
     </p>
 </div>
 
