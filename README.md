@@ -36,6 +36,8 @@
     <a href="https://www.make.com/en" target="_blank" rel="noreferrer"> <img src="https://images.ctfassets.net/qqlj6g4ee76j/1k5wBPhbu5kXiaYlFWgEJE/1809be456ba9c4246f7c8fb5d23bd6ef/Make-Logo-RGB.svg" alt="Make" width="40" height="60"/> </a>
     <a href="https://www.airtable.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.svgporn.com/logos/airtable.svg" alt="Airtable" width="40" height="40"/> </a> 
     <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
+    <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+    
     
     
 </p>
