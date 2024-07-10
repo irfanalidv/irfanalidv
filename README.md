@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanalidv&label=Profile%20views&color=0e75b6&style=flat" alt="irfanalidv" /> </p>
 
-
+<!--
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
@@ -11,6 +11,7 @@
 <a href="https://kaggle.com/irfanalidv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="irfanalidv" height="30" width="40" /></a>
 <a href="https://twitter.com/irfanalidv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="irfanalidv" height="30" width="40" /></a>
 </p>
+-->
 
 <h3 align="left">Languages</h3>
 <br/>
