@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Irfan</h1>
-<h3 align="center">A curious and intuitive individual who is always seeking new knowledge.</h3>
+<h3 align="center">A curious and intuitive problem-solver, constantly exploring new knowledge and innovative solutions.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfanalidv&label=Profile%20views&color=0e75b6&style=flat" alt="irfanalidv" /> </p>
 
