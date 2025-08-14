@@ -1,4 +1,3 @@
-![Banner](https://media.licdn.com/dms/image/v2/D5616AQE0lgDvOv59mA/profile-displaybackgroundimage-shrink_350_1400/B56Zg7vf7GHUAc-/0/1753348964564?e=1757548800&v=beta&t=ZEkYJe-Cuk8-r0kd7kgoyXhs6xzwweGF8yk4ZPsXVao)
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=0077B5&size=28&center=true&vCenter=true&width=650&height=50&lines=Vision+Architect+%7C+Impact+Maker" />
