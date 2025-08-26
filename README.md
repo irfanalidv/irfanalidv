@@ -14,8 +14,9 @@ I’m a technologist and data science leader passionate about using technology t
 ---
 
 ## 🚀 At a Glance
-- **Former Roles:**
+- **Current Role**
   - Principal Data Scientist – AI & Scalable Data Engineering, **KurationAI** *(Hong Kong SAR — Remote)*
+- **Former Roles:**
   - Head of Data & Analytics, **Luminous Power Technologies** *(India)*
   - Data Analytics & Automation Associate, **Lynk** *(India)*
   - Head of Data & Analytics, **Brainsfeed Ltd.** *(Hong Kong SAR — Remote)*
