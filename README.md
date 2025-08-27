@@ -67,6 +67,11 @@ I’m a technologist and data science leader passionate about using technology t
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&hide=processing&card_width=320" height="165" />
 </p>
 
+## 📈 GitHub Profile Views
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=irfanalidv&color=blue&style=for-the-badge&label=Profile+Views" alt="GitHub Profile Views" />
+</p>
+
 ---
 
 ## 🤝 Let’s Connect
