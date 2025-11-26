@@ -1,13 +1,4 @@
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=0077B5&size=28&center=true&vCenter=true&width=650&height=50&lines=Chief+Data+Scientist+%7C+AI+Systems+Architect" />
-</p>
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=0077B5&size=28&center=true&vCenter=true&width=650&height=50&lines=Web+Scraping+%7C+LLMs+%7C+Data+Engineering+%7C+Automation" />
-</p>
-
----
-
 ## 👋 Hi, I’m Irfan
 
 **Founder & Chief Data Scientist | ML, NLP, LLMs & Data Engineering**
