@@ -1,139 +1,135 @@
-
 ## 👋 Hi, I’m Irfan
 
-**Data Scientist | ML, NLP, LLMs & Data Engineering**
-I design **scalable AI systems** that turn messy, multi-source data into **real-time intelligence, automation, and decision-ready insights**.
+**Data Scientist • AI Systems Architect • ML, NLP, LLMs & Scalable Data Engineering**
 
-Across my work, I bridge **ML, NLP, LLMs, scalable pipelines, and agentic automation** to build **production-grade AI products**, not just models. I specialize in universal scraping, enrichment platforms, and intelligent agents capable of transforming unstructured content at scale.
+I build **production-grade AI systems** that transform messy, multi-source data into **real-time intelligence, automation, and decision-ready insights**.
 
+My work blends **ML, NLP, LLMs, large-scale scraping, enrichment architectures, and agentic automation** to design AI products that actually ship — not just experiments.
+
+I specialize in:
+
+- 🕸️ **Universal scraping systems** across 50+ dynamic, anti-bot-protected websites  
+- 🧩 **Multi-source data enrichment engines** integrating 20+ APIs with waterfall logic  
+- 🧠 **LLM-powered extraction & automation workflows**  
+- ⚙️ **High-uptime data pipelines & research intelligence platforms**  
+- 📡 **Production APIs & real-time enrichment services**  
 
 ---
 
 ## 🚀 What I Do Best
 
-* **AI Systems Architecture** – End-to-end AI workflows, LLM automation, knowledge extraction
-* **Universal Web Scraping** – 50+ website types (anti-bot, dynamic, forms, pagination)
-* **Multi-Source Data Enrichment** – 20+ APIs with intelligent waterfall fallbacks
-* **LLM-Driven Extraction Pipelines** – Classification, entity extraction, topic mapping
-* **Scalable Data Engineering** – Data pipelines, validation, high-uptime workflows
-* **Product & Team Leadership** – Led global data teams across India, HK, France & US
+- **AI Systems Architecture**  
+  End-to-end workflows, LLM automation, intelligent extraction, decision systems  
+
+- **Universal Web Scraping**  
+  Playwright/Selenium-based scrapers for dynamic JS, forms, pagination, bot protection  
+
+- **Multi-Source Data Enrichment**  
+  Apollo, PDL, ContactOut, SimilarWeb, Enrich.so, custom API routing & fallback pipelines  
+
+- **LLM-Driven Data Workflows**  
+  Classification, entity extraction, topic mapping, lead intelligence generation  
+
+- **Scalable Data Engineering**  
+  FastAPI services, data validation, auto-retry systems, queue-based workflows  
+
+- **Product & Team Leadership**  
+  Led global teams across India, Hong Kong, France & the US  
 
 ---
 
-## 🧠 Former Role
+## 🧠 Recent Role
 
-### **Principal Data Scientist – AI & Scalable Data Engineering @ KurationAI**
+### **Principal Data Scientist – AI & Scalable Data Engineering @ KurationAI**  
+*(Hong Kong — Remote)*
 
-*(Hong Kong SAR — Remote)*
-Building an AI-powered intelligence platform with:
+At KurationAI, I built the foundational intelligence layer powering:
 
-* A **universal scraper** deployed across 50+ global websites
-* A **20+ API enrichment engine** with retry, waterfall logic & API rotation
-* LLM-based classification & extraction workflows
-* Automated lead-gen datasets using similarity search + multi-source consolidation
-* Production-grade FastAPI services for real-time enrichment
-  Tools: **Python, Playwright, Selenium, FastAPI, LangChain, MongoDB, LLM APIs (GPT, Claude, Perplexity)**
+- 🌐 A **universal web scraper** deployed across 50+ global sources  
+- 🔗 A **20+ API enrichment engine** with waterfall failovers, retries & key rotation  
+- 🧠 **LLM-based classification & extraction** pipelines  
+- 🔎 **Similarity-search-driven lead intelligence** datasets  
+- ⚡ **Production-grade FastAPI services** for real-time enrichment  
 
+**Stack:** Python, Playwright, Selenium, FastAPI, LangChain, MongoDB, RSS aggregation, GPT/Claude/Perplexity APIs  
 
 ---
 
 ## 🏢 Past Experience
 
-### **Head of Data & Analytics – Luminous Power Technologies**
+### **Head of Data & Analytics — Luminous Power Technologies**
+Built org-wide data strategy, BI platform, ML operations, and scalable pipelines.
 
-Led org-wide data strategy, BI, ML operations, and data platforms.
+### **Data Analytics & Automation — Lynk**
+Optimized expert-matching using NLP, automation, search & scalable data workflows.
 
+### **Head of Data & Analytics — Brainsfeed**
+Built **Infosphere**, an NLP-powered research engine using 15+ extracted attributes.
 
-### **Data Analytics & Automation – Lynk**
+### **Data Scientist — RightCust Technologies**
+Customer segmentation, forecasting, sentiment analysis.
 
-Optimized expert-matching workflows with automation, NLP & scalable pipelines.
+### **Developer Evangelist — DevMetric**
+Built a university developer community; delivered technical workshops.
 
-
-### **Head of Data & Analytics – Brainsfeed Ltd.**
-
-Built **Infosphere**, a research & NLP-powered search engine using 15+ extracted attributes and Algolia.
-Managed global remote data science teams.
-
-
-### **Data Scientist – RightCust Technologies**
-
-Customer modeling, sentiment analytics, demand forecasting.
-
-
-### **Developer Evangelist – DevMetric (Alliance University)**
-
-Built a student developer community & conducted technical workshops.
-
-
-### **Data Visualization Developer – Datavis Tech (San Francisco)**
-
-Interactive visualizations using D3.js, Node.js, MongoDB.
-
+### **Data Visualization Developer — Datavis Tech (SF)**
+Interactive visualization systems using D3.js, Node.js, MongoDB.
 
 ---
 
 ## 🎓 Education
 
-* **M.Sc., Data Science & Artificial Intelligence — IISER Tirupati (2025–2026)**
-* **International Exchange — ISEP Paris (Data Science & Big Data Analytics)**
-* **B.Tech — Computer Science Engineering (Alliance University)**
-
+- **M.Sc. Data Science & AI — IISER Tirupati (2025–2026)**  
+- **International Exchange — ISEP Paris (Data Science & Big Data Analytics)**  
+- **B.Tech Computer Science Engineering — Alliance University**
 
 ---
 
 ## 🧰 Tech Stack
 
-| Area                   | Tools                                                |
-| ---------------------- | ---------------------------------------------------- |
-| **Languages**          | Python, R, SQL                                       |
-| **ML/AI**              | LangChain, LangSmith, scikit-learn, LLM APIs         |
-| **Web Scraping**       | Playwright, Selenium, Scrapy, PhantomBuster          |
-| **APIs & Automation**  | Apollo, ContactOut, PDL, SimilarWeb, RSS Aggregation |
-| **Cloud & DevOps**     | Azure, GCP, Docker, Azure DevOps                     |
-| **Data Engineering**   | FastAPI, REST APIs, MongoDB, PostgreSQL              |
-| **No-Code / Low-Code** | Airtable, Bubble.io, Make.com, Zapier                |
-| **Visualization**      | RStudio, Jupyter, Klipfolio, Power BI                |
+| Area | Tools |
+|------|-------|
+| **Languages** | Python, R, SQL |
+| **ML/AI** | LangChain, LangSmith, scikit-learn, LLM APIs |
+| **Scraping** | Playwright, Selenium, Scrapy, PhantomBuster |
+| **APIs / Enrichment** | Apollo, ContactOut, PDL, SimilarWeb, RSS |
+| **Cloud / DevOps** | Azure, GCP, Docker, Azure DevOps |
+| **Data Engineering** | FastAPI, REST APIs, MongoDB, PostgreSQL |
+| **Low/No-Code** | Bubble.io, Airtable, Make.com, Zapier |
+| **Visualization** | RStudio, Jupyter, Klipfolio, Power BI |
 
 ---
 
 ## 🏆 Highlights
 
-* 🏅 **Part of winning team at Philips Digital Healthcare Conclave 2015**
-* 🧠 **Built Intelligence Platforms integrating 100+ data sources**
-* 📝 **Research:** Neural-symbolic topic evolution & text analytics
-* 🥇 **Multiple Best Speaker Awards**
+- 🏅 **Winner — Philips Digital Healthcare Conclave 2015**
+- 🧠 Built intelligence platforms integrating **100+ data sources**
+- 📝 Research in neural-symbolic topic evolution & text analytics  
+- 🥇 Multiple Best Speaker awards  
 
 ---
 
-## 💼 Featured Projects
+## 🔬 Featured Projects
 
-* **Universal AI Web Scraper** — Anti-bot, forms, dynamic JS, pagination
-* **Multi-Source Data Enrichment Engine** — 20+ APIs with failover
-* **Infosphere** — NLP-driven research engine built with Algolia + Bubble.io
-* **LLM-Powered Toxic Comment Classifier**
-* **Automated Lead Intelligence Platform**
+- ⚡ **Universal AI Web Scraper** — Dynamic JS, anti-bot, forms, pagination  
+- 🔗 **Multi-Source Enrichment Engine** — 20+ APIs with smart fallback  
+- 🔍 **Infosphere** — NLP-driven research engine with Algolia  
+- 🚫 **LLM-Powered Toxic Comment Classifier**  
+- 🤖 **Automated Lead Intelligence Platform**  
 
-➡️ Explore my pinned repos for demos, code, and workflows.
+➡️ *Check pinned repositories for demos & code.*
 
 ---
 
-## 📊 GitHub Stats
-
+## 📊 GitHub Stats  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&theme=light&count_private=true" width="420"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&hide=processing&card_width=320" height="165" />
-</p>
-
-## 📈 Profile Views
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=irfanalidv&color=blue&style=for-the-badge&label=Profile+Views" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&card_width=320" height="165"/>
 </p>
 
 ---
 
-## 🤝 Let’s Connect
-
+## 🤝 Let’s Connect  
 <p align="center">
   <a href="https://www.linkedin.com/in/irfanalidv"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/irfanalidv"><img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -141,5 +137,5 @@ Interactive visualizations using D3.js, Node.js, MongoDB.
 
 ---
 
-I’m always open to collaborating on **AI systems, data automation, LLM workflows, research tooling, or end-to-end product builds**.
-Let’s build something impactful together.
+I’m always open to collaborating on **AI systems, enrichment engines, LLM automation, scalable pipelines, or research intelligence tooling.**  
+Let’s build something impactful.
