@@ -1,7 +1,7 @@
 
 ## 👋 Hi, I’m Irfan
 
-** Data Scientist | ML, NLP, LLMs & Data Engineering**
+**Data Scientist | ML, NLP, LLMs & Data Engineering**
 I design **scalable AI systems** that turn messy, multi-source data into **real-time intelligence, automation, and decision-ready insights**.
 
 Across my work, I bridge **ML, NLP, LLMs, scalable pipelines, and agentic automation** to build **production-grade AI products**, not just models. I specialize in universal scraping, enrichment platforms, and intelligent agents capable of transforming unstructured content at scale.
