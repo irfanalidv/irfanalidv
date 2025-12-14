@@ -102,7 +102,7 @@ Interactive visualization systems using D3.js, Node.js, MongoDB.
 
 ## 🏆 Highlights
 
-- 🏅 **Winner — Philips Digital Healthcare Conclave 2015**
+- 🏅 **Winners — Philips Digital Healthcare Conclave 2015**
 - 🧠 Built intelligence platforms integrating **100+ data sources**
 - 📝 Research in neural-symbolic topic evolution & text analytics  
 - 🥇 Multiple Best Speaker awards  
