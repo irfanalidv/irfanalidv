@@ -121,10 +121,27 @@ Interactive visualization systems using D3.js, Node.js, MongoDB.
 
 ---
 
-## 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&theme=light&count_private=true" width="420"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&theme=light&langs_count=7&card_width=320" height="165"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api
+      ?username=irfanalidv
+      &show_icons=true
+      &hide=issues,contribs
+      &theme=github_light
+      &cache_seconds=1800"
+    width="420"
+  />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/
+      ?username=irfanalidv
+      &layout=compact
+      &langs_count=7
+      &theme=github_light
+      &card_width=320
+      &cache_seconds=1800"
+    height="165"
+  />
 </p>
 
 ---
