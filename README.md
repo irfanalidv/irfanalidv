@@ -1,144 +1,233 @@
-## 👋 Hi, I’m Irfan
+# Irfan Ali
 
-**Data Scientist • AI Systems Architect • ML, NLP, LLMs & Scalable Data Engineering**
+AI Engineer • Data Scientist • Builder of LLM Systems, Multi-Agent Frameworks, and Data Platforms
 
-I build **production-grade AI systems** that transform messy, multi-source data into **real-time intelligence, automation, and decision-ready insights**.
+I design and build production AI systems that transform messy, multi-source data into intelligence, automation, and decision-ready insights.
 
-My work blends **ML, NLP, LLMs, large-scale scraping, enrichment architectures, and agentic automation** to design AI products that actually ship — not just experiments.
+My work focuses on building practical AI infrastructure at the intersection of:
 
-I specialize in:
+- LLM systems and agent architectures
+- web-scale data extraction
+- retrieval and enrichment pipelines
+- production AI infrastructure
 
-- 🕸️ **Universal scraping systems** across 50+ dynamic, anti-bot-protected websites  
-- 🧩 **Multi-source data enrichment engines** integrating 20+ APIs with waterfall logic  
-- 🧠 **LLM-powered extraction & automation workflows**  
-- ⚙️ **High-uptime data pipelines & research intelligence platforms**  
-- 📡 **Production APIs & real-time enrichment services**  
-
----
-
-## 🚀 What I Do Best
-
-- **AI Systems Architecture**  
-  End-to-end workflows, LLM automation, intelligent extraction, decision systems  
-
-- **Universal Web Scraping**  
-  Playwright/Selenium-based scrapers for dynamic JS, forms, pagination, bot protection  
-
-- **Multi-Source Data Enrichment**  
-  Apollo, PDL, ContactOut, SimilarWeb, Enrich.so, custom API routing & fallback pipelines  
-
-- **LLM-Driven Data Workflows**  
-  Classification, entity extraction, topic mapping, lead intelligence generation  
-
-- **Scalable Data Engineering**  
-  FastAPI services, data validation, auto-retry systems, queue-based workflows  
-
-- **Product & Team Leadership**  
-  Led global teams across India, Hong Kong, France & the US  
+I focus on building real AI products and open-source tooling rather than experimental prototypes.
 
 ---
 
-## 🧠 Recent Role
+# What I Build
 
-### **Principal Data Scientist – AI & Scalable Data Engineering @ KurationAI**  
-*(Hong Kong — Remote)*
+## AI Systems and LLM Architectures
 
-At KurationAI, I built the foundational intelligence layer powering:
+Production AI systems using LLMs, retrieval pipelines, and multi-agent orchestration.
 
-- 🌐 A **universal web scraper** deployed across 50+ global sources  
-- 🔗 A **20+ API enrichment engine** with waterfall failovers, retries & key rotation  
-- 🧠 **LLM-based classification & extraction** pipelines  
-- 🔎 **Similarity-search-driven lead intelligence** datasets  
-- ⚡ **Production-grade FastAPI services** for real-time enrichment  
-
-**Stack:** Python, Playwright, Selenium, FastAPI, LangChain, MongoDB, RSS aggregation, GPT/Claude/Perplexity APIs  
+- Multi-agent reasoning systems
+- LLM-driven extraction pipelines
+- Retrieval-augmented intelligence platforms
+- Autonomous automation workflows
 
 ---
 
-## 🏢 Past Experience
+## Web-Scale Data Intelligence
 
-### **Head of Data & Analytics — Luminous Power Technologies**
-Built org-wide data strategy, BI platform, ML operations, and scalable pipelines.
+Large-scale scraping and enrichment pipelines that convert complex web environments into structured knowledge.
 
-### **Data Analytics & Automation — Lynk**
-Optimized expert-matching using NLP, automation, search & scalable data workflows.
-
-### **Head of Data & Analytics — Brainsfeed**
-Built **Infosphere**, an NLP-powered research engine using 15+ extracted attributes.
-
-### **Data Scientist — RightCust Technologies**
-Customer segmentation, forecasting, sentiment analysis.
-
-### **Developer Evangelist — DevMetric**
-Built a university developer community; delivered technical workshops.
-
-### **Data Visualization Developer — Datavis Tech (SF)**
-Interactive visualization systems using D3.js, Node.js, MongoDB.
+- Playwright and Selenium scraping frameworks
+- Dynamic JavaScript extraction and bot-protection handling
+- Entity resolution and enrichment pipelines
+- Automated research intelligence systems
 
 ---
 
-## 🎓 Education
+## Scalable Data Engineering
 
-- **M.Sc. Data Science & AI — IISER Tirupati (2025–2026)**  
-- **International Exchange — ISEP Paris (Data Science & Big Data Analytics)**  
-- **B.Tech Computer Science Engineering — Alliance University**
+Reliable AI infrastructure and production data pipelines.
 
----
-
-## 🧰 Tech Stack
-
-| Area | Tools |
-|------|-------|
-| **Languages** | Python, R, SQL |
-| **ML/AI** | LangChain, LangSmith, scikit-learn, LLM APIs |
-| **Scraping** | Playwright, Selenium, Scrapy, PhantomBuster |
-| **APIs / Enrichment** | Apollo, ContactOut, PDL, SimilarWeb, RSS |
-| **Cloud / DevOps** | Azure, GCP, Docker, Azure DevOps |
-| **Data Engineering** | FastAPI, REST APIs, MongoDB, PostgreSQL |
-| **Low/No-Code** | Bubble.io, Airtable, Make.com, Zapier |
-| **Visualization** | RStudio, Jupyter, Klipfolio, Power BI |
+- FastAPI microservices
+- Queue-based pipelines and retry systems
+- Distributed enrichment engines
+- Validation and failover architectures
 
 ---
 
-## 🏆 Highlights
+# Open Source Libraries
 
-- 🏅 **Winners — Philips Digital Healthcare Conclave 2015**
-- 🧠 Built intelligence platforms integrating **100+ data sources**
-- 📝 Research in neural-symbolic topic evolution & text analytics  
-- 🥇 Multiple Best Speaker awards  
+I maintain multiple Python libraries on PyPI focused on AI infrastructure, agent systems, and data automation.
 
----
+PyPI profile  
+https://pypi.org/user/irfanalidv
 
-## 🔬 Featured Projects
+Notable projects include:
 
-- ⚡ **Universal AI Web Scraper** — Dynamic JS, anti-bot, forms, pagination  
-- 🔗 **Multi-Source Enrichment Engine** — 20+ APIs with smart fallback  
-- 🔍 **Infosphere** — NLP-driven research engine with Algolia  
-- 🚫 **LLM-Powered Toxic Comment Classifier**  
-- 🤖 **Automated Lead Intelligence Platform**  
+## AgentEnsemble
 
-➡️ *Check pinned repositories for demos & code.*
+A production-ready framework for multi-agent AI orchestration.
 
----
+Key capabilities:
 
-## 📊 Development Activity
+- ReAct agents
+- Swarm and debate reasoning
+- Router and planner architectures
+- Workflow graphs
+- Observability and cost tracking
 
-- GitHub activity and contribution statistics available on demand  
-  → [View live GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=irfanalidv)
-
-- Language usage breakdown  
-  → [View top languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=irfanalidv&layout=compact)
-
+Comparable to LangGraph, CrewAI, and AutoGen.
 
 ---
 
-## 🤝 Let’s Connect  
-<p align="center">
-  <a href="https://www.linkedin.com/in/irfanalidv"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/irfanalidv"><img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+## ragfallback
+
+A framework for adaptive retrieval in RAG pipelines.
+
+Features:
+
+- query variation generation
+- confidence scoring
+- automatic retry strategies
+- cost tracking and metrics
 
 ---
 
-I’m always open to collaborating on **AI systems, enrichment engines, LLM automation, scalable pipelines, or research intelligence tooling.**  
-Let’s build something impactful.
+## ragnav
+
+Hybrid retrieval engine combining:
+
+- BM25 search
+- vector embeddings
+- structure-aware graph expansion
+
+Designed for high-accuracy knowledge retrieval.
+
+---
+
+## scrapeflow
+
+Workflow engine for building scalable scraping pipelines using Playwright.
+
+---
+
+# Industry Experience
+
+## Principal Data Scientist – AI and Scalable Data Engineering  
+Kuration AI (Hong Kong – Remote)
+
+Built the core intelligence infrastructure powering:
+
+- universal scraping systems across 50+ global data sources
+- multi-API enrichment engines with waterfall logic
+- LLM-powered classification and extraction pipelines
+- production FastAPI services for real-time intelligence
+
+Technology stack:
+
+Python  
+Playwright  
+FastAPI  
+LangChain  
+MongoDB  
+LLM APIs
+
+---
+
+## Head of Data and Analytics  
+Luminous Power Technologies
+
+- Built enterprise analytics platforms across R&D and business teams
+- Defined group-wide data strategy
+- Implemented machine learning experimentation platforms
+
+---
+
+## Earlier Roles
+
+Data Analytics and Automation — Lynk  
+Head of Data and Analytics — Brainsfeed  
+Data Scientist — RightCust Technologies  
+Developer Evangelist — DevMetric  
+Data Visualization Developer — DatavisTech (San Francisco)
+
+---
+
+# Technology Stack
+
+## Languages
+Python  
+SQL  
+R
+
+## Machine Learning and AI
+LangChain  
+LLM APIs  
+scikit-learn  
+NLP pipelines
+
+## Data Engineering
+FastAPI  
+PostgreSQL  
+MongoDB  
+REST APIs
+
+## Web Data Extraction
+Playwright  
+Selenium  
+Scrapy
+
+## Cloud and DevOps
+Azure  
+GCP  
+Docker  
+GitHub Actions
+
+## Analytics and Visualization
+Jupyter  
+Power BI  
+RStudio
+
+---
+
+# Education
+
+M.Sc. Data Science and Artificial Intelligence  
+Indian Institute of Science Education and Research (IISER), Tirupati
+
+B.Tech Computer Science and Engineering  
+Alliance University
+
+International Exchange Program  
+ISEP Paris
+
+---
+
+# Highlights
+
+Winner — Philips Digital Healthcare Conclave
+
+Maintainer of multiple Python libraries on PyPI focused on AI systems and data infrastructure.
+
+Built AI platforms integrating over 100 data sources.
+
+Published research in AI and neural-symbolic NLP.
+
+---
+
+# GitHub Activity
+
+GitHub statistics  
+https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=irfanalidv
+
+Top languages  
+https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=irfanalidv&layout=compact
+
+---
+
+# Contact
+
+LinkedIn  
+https://www.linkedin.com/in/irfanalidv
+
+GitHub  
+https://github.com/irfanalidv
+
+---
+
+I am interested in collaborating on AI infrastructure, multi-agent systems, retrieval pipelines, data intelligence platforms, and open-source AI tooling.
