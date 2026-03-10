@@ -209,15 +209,11 @@ Built AI platforms integrating over 100 data sources.
 Published research in AI and neural-symbolic NLP.
 
 ---
-
 # GitHub Activity
 
-GitHub statistics  
-https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=irfanalidv
+![Irfan's GitHub stats](https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&hide_border=true)
 
-Top languages  
-https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=irfanalidv&layout=compact
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&hide_border=true)
 ---
 
 # Contact
