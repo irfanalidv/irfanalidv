@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1500&color=2D9CDB&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Data+Scientist;Builder+of+LLM+Systems+%26+Multi-Agent+Frameworks;Converting+Data+%E2%86%92+Intelligence+%E2%86%92+Automation)
+**AI Engineer | Data Scientist | Builder of LLM Systems & Multi-Agent Frameworks | Converting Data → Intelligence → Automation**
 
 </div>
 
