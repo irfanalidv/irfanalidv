@@ -125,7 +125,7 @@ Maintaining Python libraries on PyPI for AI infrastructure and data automation.
 
 ## 🏆 Highlights
 
-- 🏅 **Winner** — Philips Digital Healthcare Conclave
+- 🏅 **Part of winning team** — Philips Digital Healthcare Conclave
 - 📦 **Maintainer** — Multiple PyPI libraries (AI infrastructure, data systems)
 - 🔗 **Built** — AI platforms integrating 100+ data sources
 - 📄 **Published** — Research in AI and neural-symbolic NLP
