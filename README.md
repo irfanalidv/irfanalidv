@@ -1,164 +1,97 @@
-<div align="center">
+# Irfan Ali
 
-**AI Engineer | Data Scientist | Builder of LLM Systems & Multi-Agent Frameworks | Converting Data → Intelligence → Automation**
+**Generative AI Engineer · LLMs · RAG · Agentic Pipelines**
 
-</div>
+I build AI systems that work in production — not just demos. Over 7+ years across data engineering, NLP, and LLM systems. I've shipped production AI at a Schneider Electric company, built the entire AI intelligence layer at a Hong Kong AI startup, and founded [DataCortex IQ](https://www.datacortex.in) to deliver AI systems for clients globally.
 
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfanalidv)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/irfanalidv)
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/irfanalidv)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfanalidv)
+[![PyPI](https://img.shields.io/badge/PyPI_11+_packages-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/user/irfanalidv)
+[![Website](https://img.shields.io/badge/datacortex.in-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.datacortex.in)
+[![Email](https://img.shields.io/badge/contact@datacortex.in-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@datacortex.in)
 
 ---
 
-<p align="center">
-  <strong>I design and build production AI systems</strong> that convert fragmented, multi-source data into intelligence, automation, and decision-ready insights.
-</p>
+## What I actually work on
 
-<p align="center">
-  <em>Systems that run reliably in production — not experimental prototypes.</em>
-</p>
+Most AI projects fail at the same places — retrieval breaks under real data, agents loop forever, pipelines that passed evals fail in production, costs explode at scale. That's the problem I solve.
 
----
+My work sits at the intersection of **LLM orchestration**, **agentic pipelines**, and **production data engineering** — building the full system from ingestion to deployment, not just the model layer.
 
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-</p>
+**Recent systems I've shipped:**
+- Voice AI platform with real-time STT/TTS, LLM reasoning, structured extraction, and post-call analytics ([Reflecta](https://www.getreflecta.com))
+- Autonomous multi-channel lead intelligence system with agent-driven pipelines, multi-provider enrichment, and RAG-style web extraction (Kuration AI)
+- LLM-powered dealer assistant with domain fine-tuned GPT model, multi-chain LangChain pipeline, and load calculation logic (Luminous Power Technologies / Schneider Electric)
 
 ---
 
-## 🎯 What I Build
+## PyPI packages
 
-<table>
-<tr>
-<td width="50%">
+Libraries I maintain for AI infrastructure, retrieval, and data systems — used by developers in production.
 
-### 🤖 AI Systems & LLM Architectures
+| Package | What it does | Downloads |
+|---------|-------------|-----------|
+| [**agentensemble**](https://pypi.org/project/agentensemble/) | Multi-agent orchestration — ReAct, Swarm, Pipeline, Debate, WorkflowGraph patterns with routing, planning, RAG, and cost tracking | [![Downloads](https://static.pepy.tech/badge/agentensemble)](https://pypi.org/project/agentensemble/) |
+| [**ragfallback**](https://pypi.org/project/ragfallback/) | Stop RAG from failing silently — query rewriting, retrieval confidence scoring, fallback strategies, retry logic | [![Downloads](https://static.pepy.tech/badge/ragfallback)](https://pypi.org/project/ragfallback/) |
+| [**ragnav**](https://pypi.org/project/ragnav/) | Navigation-first RAG for long documents — routes queries to right pages, follows cross-references, coherent evidence retrieval | [![Downloads](https://static.pepy.tech/badge/ragnav)](https://pypi.org/project/ragnav/) |
+| [**scrapeflow-py**](https://pypi.org/project/scrapeflow-py/) | Production Playwright scraping — LLM extraction, hybrid selectors, session persistence, rate limiting, anti-detection | [![Downloads](https://static.pepy.tech/badge/scrapeflow-py)](https://pypi.org/project/scrapeflow-py/) |
+| [**agentcare**](https://pypi.org/project/agentcare/) | Voice AI for healthcare — call intake, structured extraction, missing-data recovery, appointment orchestration, post-call analytics | [![Downloads](https://static.pepy.tech/badge/agentcare)](https://pypi.org/project/agentcare/) |
+| [**askpandas**](https://pypi.org/project/askpandas/) | Natural language queries on CSV data using local LLMs — no API keys, no data leaves your machine | [![Downloads](https://static.pepy.tech/badge/askpandas)](https://pypi.org/project/askpandas/) |
+| [**lingo-nlp-toolkit**](https://pypi.org/project/lingo-nlp-toolkit/) | Lightweight NLP toolkit bridging traditional pipelines and transformer-ready workflows | [![Downloads](https://static.pepy.tech/badge/lingo-nlp-toolkit)](https://pypi.org/project/lingo-nlp-toolkit/) |
+| [**pyrochain**](https://pypi.org/project/pyrochain/) | Agentic feature engineering — PyTorch + LangChain agents for multimodal feature extraction | [![Downloads](https://static.pepy.tech/badge/pyrochain)](https://pypi.org/project/pyrochain/) |
+| [**toxic-comment-classifier**](https://pypi.org/project/toxic-comment-classifier/) | Deep learning toxicity detection — obscene language, threats, insults, identity hate with per-category scores | [![Downloads](https://static.pepy.tech/badge/toxic-comment-classifier)](https://pypi.org/project/toxic-comment-classifier/) |
 
-Designing AI systems that combine reasoning, retrieval, and automation.
-
-- Multi-agent reasoning architectures
-- LLM-driven extraction pipelines
-- Retrieval-augmented knowledge systems
-- Automated decision workflows
-
-</td>
-<td width="50%">
-
-### 🌐 Web-Scale Data Intelligence
-
-Engineering pipelines that convert complex web environments into structured knowledge.
-
-- Playwright & Selenium scraping infrastructure
-- Dynamic JS extraction & anti-bot handling
-- Entity resolution & enrichment systems
-- Automated research intelligence platforms
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚡ Scalable Data Engineering
-
-Building reliable AI infrastructure and production data pipelines.
-
-- FastAPI microservices
-- Queue-driven pipelines & retry systems
-- Distributed enrichment engines
-- Validation & failover layers
-
-</td>
-<td width="50%">
-
-### 📦 Open Source
-
-Maintaining Python libraries on PyPI for AI infrastructure and data automation.
-
-[→ View my PyPI profile](https://pypi.org/user/irfanalidv)
-
-</td>
-</tr>
-</table>
+[→ All packages on PyPI](https://pypi.org/user/irfanalidv/)
 
 ---
 
-## 📚 Featured Projects
+## Stack
 
-| Project | Description |
-|---------|-------------|
-| **[AgentEnsemble](https://pypi.org/project/agentensemble/)** | Production-grade multi-agent AI orchestration — ReAct agents, swarm/debate reasoning, router/planner architectures, workflow graphs, observability |
-| **[ragfallback](https://pypi.org/project/ragfallback/)** | RAG reliability framework — query variation, retrieval confidence scoring, fallback strategies, cost tracking |
-| **[ragnav](https://pypi.org/project/ragnav/)** | Hybrid retrieval — BM25 + vector embeddings + structure-aware graph expansion |
-| **[scrapeflow](https://pypi.org/project/scrapeflow/)** | Workflow engine for large-scale Playwright scraping pipelines |
-
----
-
-## 💼 Experience
-
-<div align="center">
-
-| Role | Company |
-|------|---------|
-| **Principal Data Scientist** | Kuration AI *(Hong Kong — Remote)* |
-| **Head of Data and Analytics** | Luminous Power Technologies |
-| **Earlier** | Lynk · Brainsfeed · RightCust · DevMetric · DatavisTech |
-
-</div>
-
-**@ Kuration AI** — Built intelligence infrastructure: universal scraping across 50+ sources, multi-API enrichment engines, LLM extraction pipelines, production FastAPI services.
+```
+LLMs          GPT-4o · Claude · Gemini · Mistral · Ollama (local)
+Orchestration LangChain · LangGraph · custom agent frameworks
+RAG           hybrid BM25 + embeddings · reranking · fallback strategies
+Backend       Python · FastAPI · async pipelines · queue-driven systems
+Scraping      Playwright · Selenium · Firecrawl · ZenRows
+Databases     MongoDB · PostgreSQL · vector stores
+Infra         Docker · Azure · Azure ML · Azure DevOps · GCP
+Data          Pandas · ETL pipelines · structured extraction · NLP
+```
 
 ---
 
-## 🏆 Highlights
+## Where I've worked
 
-- 🏅 **Part of winning team** — Philips Digital Healthcare Conclave
-- 📦 **Maintainer** — Multiple PyPI libraries (AI infrastructure, data systems)
-- 🔗 **Built** — AI platforms integrating 100+ data sources
-- 📄 **Published** — Research in AI and neural-symbolic NLP
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&hide_border=true&theme=default" alt="GitHub Stats" width="400"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&hide_border=true" alt="Top Languages" width="350"/>
-
-</div>
+| Company | Role | What I built |
+|---------|------|-------------|
+| **Kuration AI** · Hong Kong | Founding AI Engineer | Entire AI intelligence layer — agent pipelines, multi-provider enrichment, RAG-style web extraction, LLM orchestration |
+| **Luminous Power Technologies** · Schneider Electric | Senior Manager — Data & Analytics, R&D | LLM dealer assistant (fine-tuned GPT), R&D intelligence dashboard, GenAI data platform on Azure |
+| **Lynk** · India | Data Analytics & Automation | Analytics pipelines, NLP-powered expert matchmaking, decision-ready data workflows |
+| **brainsfeed** · Hong Kong | Head of Data & Analytics | Built Infosphere from scratch — NLP enrichment platform with 15+ attribute extraction and natural-language search |
 
 ---
 
-## 📬 Let's Connect
+## Research
 
-<p align="center">
-  <strong>Interested in collaborating on</strong><br/>
-  AI infrastructure · Multi-agent systems · Retrieval pipelines · Data intelligence platforms · Open-source AI tooling
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/irfanalidv"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
+- **Multi-Aspect Temporal Topic Evolution with Neural-Symbolic Fusion and Information Extraction for Yelp Review Analysis** — *Indian Journal of Artificial Intelligence and Neural Networking (IJAINN)*, Oct 2025. [DOI](http://doi.org/10.54105/ijainn.F1106.05061025)
+- **Advanced Cross-Validation Framework for Mental Health AI: BERT and Neural Networks Achieve High Accuracy on MentalChat16K** — *IJAINN*, Dec 2025. [DOI](https://doi.org/10.54105/ijainn.a1112.06011225)
 
 ---
 
-<div align="center">
+## Currently
 
-**M.Sc.** Data Science & AI — IISER Tirupati · **B.Tech** CSE — Alliance University · **Exchange** — ISEP Paris
+- Pursuing **M.Sc. Data Science & AI** at IISER Tirupati (Institute of National Importance, Ministry of Education, Govt. of India) — GPA 8.0/10
+- Building **[Reflecta](https://www.getreflecta.com)** — continuity-first mental wellness platform with voice AI
+- Running **[DataCortex IQ](https://www.datacortex.in)** — available for AI engineering contracts and consulting
+- Open to **full-time Generative AI / Agentic AI Engineering roles** (remote preferred)
 
-</div>
+---
+
+## GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=irfanalidv&show_icons=true&hide_border=true&theme=default&hide=stars" alt="GitHub Stats" width="420"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irfanalidv&layout=compact&hide_border=true&theme=default" alt="Top Languages" width="340"/>
+
+---
+
+*Building at the intersection of LLMs, agentic systems, and production data engineering.*
+*India · Previously: Hong Kong · France · US*
