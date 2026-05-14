@@ -1,12 +1,12 @@
 # Hi, I'm Irfan
 
-Senior AI engineer building production LLM systems — RAG pipelines, agent orchestration, multi-provider LLM infrastructure, and voice AI on telephony. Based in India, working remote.
+Senior AI engineer with 7+ years building production LLM systems — RAG pipelines, agent orchestration, multi-provider LLM infrastructure, and voice AI on telephony. Based in India, working remote.
 
-I run [DataCortex IQ](https://www.datacortex.in), my AI engineering studio. **Currently open to long-term embedded engagements (6–12+ months) with growth-stage AI/LLM teams** — engaged through DataCortex IQ.
+**Available immediately for full-time remote senior AI engineer roles.**
 
-Previously the founding AI engineer at Kuration AI (Hong Kong) and the first AI hire at Schneider Electric / Luminous Power Technologies (India), reporting to the CTO.
+Previously founding AI engineer at Kuration AI (Hong Kong) and sole AI hire at Schneider Electric / Luminous Power Technologies (India), reporting to the CTO.
 
-📫 **Reach me:** [contact@datacortex.in](mailto:contact@datacortex.in) · [LinkedIn](https://www.linkedin.com/in/irfanalidv) · [datacortex.in](https://www.datacortex.in)
+📫 **Reach me:** [irfan.ali@datacortex.in](mailto:irfan.ali@datacortex.in) · [LinkedIn](https://www.linkedin.com/in/irfanalidv)
 
 ---
 
