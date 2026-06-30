@@ -9,6 +9,7 @@
 Previously **founding AI engineer at Kuration AI** (Hong Kong) and **sole AI hire reporting to the CTO** at Schneider Electric / Luminous Power Technologies (India).
 
 📫 [irfan.ali@datacortex.in](mailto:irfan.ali@datacortex.in) · [LinkedIn](https://www.linkedin.com/in/irfanalidv) · [Résumé (PDF)](https://www.datacortex.in/resume.pdf)
+
 ---
 
 ### What I build
