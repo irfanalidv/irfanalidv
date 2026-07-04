@@ -17,7 +17,7 @@ Previously **founding AI engineer at Kuration AI** (Hong Kong) and **sole AI hir
 **LLMs · RAG · Agents · Voice AI · Multi-provider orchestration**
 
 - **RAG & retrieval** — hybrid BM25 + dense, query rewriting, RRF fusion, evaluation
-- **Agents** — ReAct, multi-agent pipelines, structured extraction, tool use
+- **Agents** — multi-agent pipelines, structured extraction, tool use
 - **Voice AI** — phone-based LLM agents on telephony, async webhooks, post-call analysis
 - **LLM infrastructure** — multi-provider orchestration (GPT-4o, Claude, Gemini) with automatic fallback and cost controls
 
@@ -27,24 +27,28 @@ Previously **founding AI engineer at Kuration AI** (Hong Kong) and **sole AI hir
 
 ### Shipped products
 
-- **[Reflecta](https://www.getreflecta.com)** — a voice-first AI wellness app you can call on the phone. Phone-based check-ins → post-call LLM analysis → personalised recommendations. *FastAPI · Bolna telephony · Groq · Neon Postgres/pgvector · multi-provider fallback.* Solo build, end-to-end.
-- **[Stacksift](https://stacksift.in)** — a B2B domain product analyzer running a 5-stage LLM classification pipeline (DSPy + GPT-4.1) over crawled web data, with structured extraction and verdict scoring at **~$0.03 per analysis**.
+- **[Godam](https://getgodam.com)** — a B2B inventory & billing SaaS for FMCG distribution in Nepal, **live in production with a paying customer**. Runs the client's daily billing, payments, credit ledgers, and field-sales logging. *Next.js 15 · TypeScript · Supabase.* Built and sold solo.
+- **[Stacksift](https://stacksift.in)** — a B2B domain product analyzer running a 5-stage LLM classification pipeline (DSPy + GPT-4.1) over crawled web data at **~$0.03 per analysis (~84% gross margin)**, with **live Razorpay payments**.
+- **[Reflecta](https://www.getreflecta.com)** — a voice-first AI wellness app you can call on the phone. Phone check-ins → post-call analysis extracting **35+ wellness signals per call** (burnout risk scoring, crisis-keyword detection) → personalised recommendations. *FastAPI · Bolna telephony · Groq · Neon Postgres/pgvector · multi-provider fallback.* Solo build, end-to-end.
 
 ---
 
-### Open-source Python libraries
+### Open-source Python libraries — 12 on PyPI
 
 | Library | What it does |
 |---|---|
 | **[RAGNav](https://pypi.org/project/ragnav/)** | RAG routing & retrieval — hybrid BM25 + dense with RRF fusion. **R@3 = 0.956 on SQuAD**, 131 tests |
-| **[AgentEnsemble](https://pypi.org/project/agentensemble/)** | Multi-agent orchestration — ReAct, Swarm, Pipeline, Debate, WorkflowGraph |
 | **[ragfallback](https://pypi.org/project/ragfallback/)** | Resilient retrieval — query rewriting, confidence scoring, fallback & retry |
+| **[AgentEnsemble](https://pypi.org/project/agentensemble/)** | Multi-agent orchestration — ReAct, Swarm, Pipeline, Debate, WorkflowGraph |
 | **[AgentCare](https://pypi.org/project/agentcare/)** | Voice AI for healthcare — call intake, structured extraction, appointment orchestration |
-| **[scrapeflow-py](https://pypi.org/project/scrapeflow-py/)** | Playwright scraping with LLM extraction, hybrid selectors, anti-detection |
+| **[nepal-gov-agent](https://pypi.org/project/nepal-gov-agent/)** | Multilingual RAG over Nepal government documents, with a synthetic QA evaluation harness |
 | **[AskPandas](https://pypi.org/project/askpandas/)** | Natural-language queries on CSV via local LLMs — no API keys, no cloud |
 | **[PyroChain](https://pypi.org/project/pyrochain/)** | Agentic feature engineering — PyTorch + LangChain agents for multimodal extraction |
+| **[scrapeflow-py](https://pypi.org/project/scrapeflow-py/)** | Playwright scraping with LLM extraction, hybrid selectors, anti-detection |
 | **[lingo-nlp-toolkit](https://pypi.org/project/lingo-nlp-toolkit/)** | Lightweight NLP utilities bridging classic pipelines and transformer workflows |
 | **[toxic-comment-classifier](https://pypi.org/project/toxic-comment-classifier/)** | Deep-learning toxicity detection with per-category scoring |
+| **[socialmediaextractor](https://pypi.org/project/socialmediaextractor/)** | Structured data extraction from social media profiles and posts |
+| **[trustpilot-scraper](https://pypi.org/project/trustpilot-scraper/)** | Review collection and structuring from Trustpilot pages |
 
 → All libraries on my **[PyPI profile](https://pypi.org/user/irfanalidv/)**.
 
