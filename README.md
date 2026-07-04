@@ -35,20 +35,20 @@ Previously **founding AI engineer at Kuration AI** (Hong Kong) and **sole AI hir
 
 ### Open-source Python libraries — 12 on PyPI
 
-| Library | What it does |
-|---|---|
-| **[RAGNav](https://pypi.org/project/ragnav/)** | RAG routing & retrieval — hybrid BM25 + dense with RRF fusion. **R@3 = 0.956 on SQuAD**, 131 tests |
-| **[ragfallback](https://pypi.org/project/ragfallback/)** | Resilient retrieval — query rewriting, confidence scoring, fallback & retry |
-| **[AgentEnsemble](https://pypi.org/project/agentensemble/)** | Multi-agent orchestration — ReAct, Swarm, Pipeline, Debate, WorkflowGraph |
-| **[AgentCare](https://pypi.org/project/agentcare/)** | Voice AI for healthcare — call intake, structured extraction, appointment orchestration |
-| **[nepal-gov-agent](https://pypi.org/project/nepal-gov-agent/)** | Multilingual RAG over Nepal government documents, with a synthetic QA evaluation harness |
-| **[AskPandas](https://pypi.org/project/askpandas/)** | Natural-language queries on CSV via local LLMs — no API keys, no cloud |
-| **[PyroChain](https://pypi.org/project/pyrochain/)** | Agentic feature engineering — PyTorch + LangChain agents for multimodal extraction |
-| **[scrapeflow-py](https://pypi.org/project/scrapeflow-py/)** | Playwright scraping with LLM extraction, hybrid selectors, anti-detection |
-| **[lingo-nlp-toolkit](https://pypi.org/project/lingo-nlp-toolkit/)** | Lightweight NLP utilities bridging classic pipelines and transformer workflows |
-| **[toxic-comment-classifier](https://pypi.org/project/toxic-comment-classifier/)** | Deep-learning toxicity detection with per-category scoring |
-| **[socialmediaextractor](https://pypi.org/project/socialmediaextractor/)** | Structured data extraction from social media profiles and posts |
-| **[trustpilot-scraper](https://pypi.org/project/trustpilot-scraper/)** | Review collection and structuring from Trustpilot pages |
+| Library | Downloads | What it does |
+|---|---|---|
+| **[RAGNav](https://pypi.org/project/ragnav/)** | ![Downloads](https://static.pepy.tech/badge/ragnav) | RAG routing & retrieval — hybrid BM25 + dense with RRF fusion. **R@3 = 0.956 on SQuAD**, 131 tests |
+| **[ragfallback](https://pypi.org/project/ragfallback/)** | ![Downloads](https://static.pepy.tech/badge/ragfallback) | Resilient retrieval — query rewriting, confidence scoring, fallback & retry |
+| **[AgentEnsemble](https://pypi.org/project/agentensemble/)** | ![Downloads](https://static.pepy.tech/badge/agentensemble) | Multi-agent orchestration — ReAct, Swarm, Pipeline, Debate, WorkflowGraph |
+| **[AgentCare](https://pypi.org/project/agentcare/)** | ![Downloads](https://static.pepy.tech/badge/agentcare) | Voice AI for healthcare — call intake, structured extraction, appointment orchestration |
+| **[nepal-gov-agent](https://pypi.org/project/nepal-gov-agent/)** | ![Downloads](https://static.pepy.tech/badge/nepal-gov-agent) | Multilingual RAG over Nepal government documents, with a synthetic QA evaluation harness |
+| **[AskPandas](https://pypi.org/project/askpandas/)** | ![Downloads](https://static.pepy.tech/badge/askpandas) | Natural-language queries on CSV via local LLMs — no API keys, no cloud |
+| **[PyroChain](https://pypi.org/project/pyrochain/)** | ![Downloads](https://static.pepy.tech/badge/pyrochain) | Agentic feature engineering — PyTorch + LangChain agents for multimodal extraction |
+| **[scrapeflow-py](https://pypi.org/project/scrapeflow-py/)** | ![Downloads](https://static.pepy.tech/badge/scrapeflow-py) | Playwright scraping with LLM extraction, hybrid selectors, anti-detection |
+| **[lingo-nlp-toolkit](https://pypi.org/project/lingo-nlp-toolkit/)** | ![Downloads](https://static.pepy.tech/badge/lingo-nlp-toolkit) | Lightweight NLP utilities bridging classic pipelines and transformer workflows |
+| **[toxic-comment-classifier](https://pypi.org/project/toxic-comment-classifier/)** | ![Downloads](https://static.pepy.tech/badge/toxic-comment-classifier) | Deep-learning toxicity detection with per-category scoring |
+| **[socialmediaextractor](https://pypi.org/project/socialmediaextractor/)** | ![Downloads](https://static.pepy.tech/badge/socialmediaextractor) | Structured data extraction from social media profiles and posts |
+| **[trustpilot-scraper](https://pypi.org/project/trustpilot-scraper/)** | ![Downloads](https://static.pepy.tech/badge/trustpilot-scraper) | Review collection and structuring from Trustpilot pages |
 
 → All libraries on my **[PyPI profile](https://pypi.org/user/irfanalidv/)**.
 
