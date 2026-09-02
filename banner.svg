@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Irfan Ali  Senior AI Engineer</title>
+  <desc id="desc">I make LLM systems reliable in production. Open to senior AI IC roles  Bengaluru or remote.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B132B"/>
+      <stop offset="1" stop-color="#13203F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="-10%" r="55%">
+      <stop offset="0" stop-color="#00D1D1" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00D1D1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#glow)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect x="0" y="0" width="6" height="340" fill="#00D1D1"/>
+  <text x="72" y="108" fill="#00D1D1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" letter-spacing="2.4">IRFAN ALI  ·  SENIOR AI ENGINEER</text>
+  <text x="72" y="168" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="34" font-weight="700">I make LLM systems reliable in production</text>
+  <text x="72" y="210" fill="#94A3B8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">retrieval · agents · voice · and the evals that prove they work</text>
+  <rect x="72" y="240" width="220" height="3" rx="1.5" fill="#00D1D1"/>
+  <text x="72" y="286" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">Open to senior AI IC roles  Bengaluru or remote</text>
+</svg>
