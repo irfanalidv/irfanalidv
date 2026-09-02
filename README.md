@@ -14,67 +14,55 @@
 
 <br />
 
-Seven-plus years building AI and data systems. Previously founding AI engineer at Kuration AI in Hong Kong, and the first AI hire at Schneider Electric in India, reporting to the CTO.
+**Senior AI engineer, seven-plus years.** I work on the part that's hard after the demo works: retrieval that returns the right answer, agents that degrade loudly instead of silently, evaluation harnesses that catch regressions, and cost you can actually account for.
 
-Independent AI engineer (self-employed) — DataCortex IQ · Dec 2025–present · self-funded, pre-revenue.
+Founding AI engineer at Kuration AI. First AI hire at Schneider Electric's Luminous R&D, reporting to the CTO. First data hire at brainsfeed, where I led a distributed team of ten.
 
-**Open to senior AI IC roles — Bengaluru or remote.**
+**Open to senior AI IC roles — Bengaluru or remote.** [irfan.ali@datacortex.in](mailto:irfan.ali@datacortex.in)
 
-<table>
-  <tr>
-    <td align="center">12 PyPI libraries</td>
-    <td align="center">2 peer-reviewed papers</td>
-    <td align="center">First AI hire, twice</td>
-    <td align="center">Startups + enterprise</td>
-  </tr>
-</table>
+## Experience
 
-## Selected work
+| Role | Org | When |
+| --- | --- | --- |
+| Independent AI Engineer (self-employed) | DataCortex IQ · India | Dec 2025 – present |
+| Founding AI Engineer | Kuration AI · Hong Kong | 2024–2025 |
+| Senior Manager – Data & AI, R&D · first AI hire, reported to CTO | Luminous Power Technologies (Schneider Electric) · India | 2023–2024 |
+| Data Analytics & Automation Associate | Lynk · India | 2022–2023 |
+| Head of Data & Analytics · first data hire, led team of 10+ | brainsfeed · Hong Kong | 2018–2022 |
 
-Engineering writeups on [datacortex.in](https://datacortex.in). Metrics below have a public reproduce path.
+Since December 2025 I've worked independently, self-funding a focused build phase on production LLM infrastructure — evaluation, reliability, retrieval, and multi-provider routing — and open-sourcing most of it. Pre-revenue by design and by outcome. The systems below came out of it.
 
-### [Stacksift](https://stacksift.in) · company intelligence
+## Selected engineering work
 
-Five-stage pipeline: search → crawl → extract → deduplicate → verdict. FastAPI, DSPy, Pydantic strict JSON Schema, sequential Pass 3 so each call sees already-confirmed products.
+Full writeups at [datacortex.in](https://datacortex.in). Every number below has a public reproduce path.
 
-Frozen eval (2026-09-01, 20/20 scored): **macro P / R / F1 = 0.771 / 0.869 / 0.795**. The writeup is the misses.
+**Company-intelligence extraction pipeline** — Five stages: search → crawl → extract → deduplicate → verdict. FastAPI, DSPy, Pydantic strict JSON Schema, confidence-scored verdicts with human-review flagging, per-call cost metering. Pass 3 runs sequentially so each verdict sees already-confirmed products.
 
-[Case study](https://datacortex.in/work/stacksift) · [Eval writeup](https://datacortex.in/writing/evaluating-stacksift-verdict-pipeline) · [Labels + rescore](https://github.com/irfanalidv/stacksift-eval)
+Frozen eval, 2026-09-01, 20/20 domains scored: **macro P / R / F1 = 0.771 / 0.869 / 0.795**. The writeup is mostly about the misses — including an optimizer run that made the metric worse and got reverted, and a search provider that returned HTTP 400 on empty credits so the pipeline scored zeros instead of failing loudly.
+
+[Case study](https://datacortex.in/work/stacksift) · [Eval writeup](https://datacortex.in/writing/evaluating-stacksift-verdict-pipeline) · [Labels + rescore script](https://github.com/irfanalidv/stacksift-eval)
 
 `FastAPI` `DSPy` `Pydantic` `LangSmith`
 
-### [Reflecta](https://getreflecta.com) · voice check-ins
-
-Idempotent Bolna webhook ingest, deterministic crisis detection on the raw transcript **before** any LLM call, then Groq → Hugging Face → heuristic analysis. Prior-call context via Neon Postgres / pgvector — not a longer prompt.
+**Voice check-in system** — Idempotent webhook ingest, deterministic safety detection on the raw transcript *before* any LLM call, then a Groq → Hugging Face → heuristic fallback chain. Cross-session context comes from pgvector retrieval over prior calls, not a longer prompt.
 
 [Case study](https://datacortex.in/work/reflecta)
 
 `Next.js` `Bolna` `Groq` `pgvector`
 
-### [Godam](https://getgodam.com) · FMCG trade operations
-
-Trade-ops app for Nepal distributors: party ledgers (VAT/PAN), billing, collections, credit, godown stock, DSR, field-visit logging. Phone-width UI. Built solo. No LLM in the critical path — reliability is referential integrity and role checks.
+**FMCG trade-operations app** — Party ledgers with VAT/PAN, billing, collections, credit limits, godown stock, field-visit logging, phone-width UI. Built for distributors in Nepal. No LLM in the critical path — correctness here is referential integrity and role checks, and the writeup is honest about where app-level roles should have been database policies.
 
 [Case study](https://datacortex.in/work/godam)
 
 `Next.js 15` `TypeScript` `Supabase`
 
-## Previously
-
-| Role | Org | When |
-| --- | --- | --- |
-| Founding AI Engineer | Kuration AI · Hong Kong | 2024–2025 |
-| Senior Manager – Data & AI, R&D · first AI hire, reported to CTO | Luminous Power Technologies (Schneider Electric) · India | 2023–2024 |
-| Data Analytics & Automation Associate | Lynk | 2022–2023 |
-| Head of Data & Analytics · first data hire | brainsfeed · Hong Kong | 2018–2022 |
-
 ## Open source
 
-Twelve published Python libraries. Descriptions match the packages; the only numbered retrieval result is linked to the benchmark file.
+Twelve published Python libraries. The only numbered result is linked to its benchmark file.
 
 | Library | What it does |
 | --- | --- |
-| [**RAGNav**](https://pypi.org/project/ragnav/) · [src](https://github.com/irfanalidv/RAGNav) | Hybrid BM25 + dense retrieval with RRF fusion. Navigation-first RAG for long documents. [R@3 0.956 over 500 SQuAD questions](https://github.com/irfanalidv/RAGNav/blob/main/benchmarks/results/squad_results.txt) |
+| [**RAGNav**](https://pypi.org/project/ragnav/) · [src](https://github.com/irfanalidv/RAGNav) | Hybrid BM25 + dense retrieval with RRF fusion. Navigation-first RAG for long documents. [R@3 0.956 over 500 SQuAD questions](https://github.com/irfanalidv/RAGNav/blob/main/benchmarks/results/squad_results.txt) — script and results in-repo |
 | [**ragfallback**](https://pypi.org/project/ragfallback/) · [src](https://github.com/irfanalidv/ragfallback) | Stop RAG from failing silently. Query rewriting, retrieval confidence scoring, fallback strategies, retry logic |
 | [**AgentEnsemble**](https://pypi.org/project/agentensemble/) · [src](https://github.com/irfanalidv/AgentEnsemble) | Multi-agent orchestration. ReAct, Swarm, Pipeline, Debate, WorkflowGraph. Routing, planning, RAG, cost tracking |
 | [**nepal-gov-agent**](https://pypi.org/project/nepal-gov-agent/) · [src](https://github.com/irfanalidv/Nepal-Gov-Agent) | Agentic RAG on Nepal government policy and legal documents. Hybrid retrieval with citations. Nepali + English |
@@ -89,19 +77,13 @@ Twelve published Python libraries. Descriptions match the packages; the only num
 
 All packages: [pypi.org/user/irfanalidv](https://pypi.org/user/irfanalidv/)
 
-## Publications
+## Applied research
 
-- **Mental Health AI on MentalChat16K** — BERT + neural networks on a cross-validation framework · *IJAINN, Dec 2025* · [DOI](https://doi.org/10.54105/ijainn.a1112.06011225)
-- **Neural-Symbolic Topic Evolution on Yelp Reviews** — multi-aspect temporal topic modelling · *IJAINN, Oct 2025* · [DOI](https://doi.org/10.54105/ijainn.F1106.05061025)
+- **Cross-validation framework for mental-health AI on MentalChat16K** — BERT and neural networks · *IJAINN, Dec 2025* · [DOI](https://doi.org/10.54105/ijainn.a1112.06011225)
+- **Neural-symbolic topic evolution on Yelp reviews** — multi-aspect temporal topic modelling · *IJAINN, Oct 2025* · [DOI](https://doi.org/10.54105/ijainn.F1106.05061025)
 
 ORCID: [0000-0003-0022-3047](https://orcid.org/0000-0003-0022-3047)
 
 ## Contact
 
 [irfan.ali@datacortex.in](mailto:irfan.ali@datacortex.in) · [LinkedIn](https://www.linkedin.com/in/irfanalidv/) · [datacortex.in](https://datacortex.in)
-
----
-
-<div align="center">
-  <sub>Reliability over hype · Systems over scripts · Maintainability over short-term hacks</sub>
-</div>
