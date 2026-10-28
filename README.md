@@ -25,7 +25,7 @@ Master's in Data Science & AI, IISER Tirupati, 2026.
 | Role | Org | When |
 | --- | --- | --- |
 | AI Engineer | DataCortex · India | Dec 2025 – present |
-| Head of AI | Kuration AI · Hong Kong | 2024–2025 |
+| Founding AI Engineer | Kuration AI · Hong Kong | 2024–2025 |
 | Senior Manager (R&D) | Luminous Power Technologies (a Schneider Electric company) · India | 2023–2024 |
 | Data Analytics & Automation Associate | Lynk · India | 2022–2023 |
 | Head of Data & Analytics | brainsfeed · Hong Kong | 2018–2022 |
