@@ -14,7 +14,7 @@
 
 <br />
 
-**AI Engineer, based in Bengaluru.** I build tools that turn messy information into data you can actually use — reading web pages and documents, pulling out what matters, and checking the result is right before anyone relies on it.
+**AI Engineer, based in Bengaluru.** Eight years in data and AI engineering, the last three building AI products end to end, seven of them fully remote with teams in Hong Kong, Europe and India. I build tools that turn messy information into data you can actually use — reading web pages and documents, pulling out what matters, and checking the result is right before anyone relies on it.
 
 Master's in Data Science & AI, IISER Tirupati, 2026.
 
@@ -26,13 +26,13 @@ Master's in Data Science & AI, IISER Tirupati, 2026.
 | --- | --- | --- |
 | AI Engineer | DataCortex · India | Dec 2025 – present |
 | Head of AI | Kuration AI · Hong Kong | 2024–2025 |
-| Senior Manager – Data & AI, R&D | Luminous Power Technologies · India | 2023–2024 |
+| Senior Manager (R&D) | Luminous Power Technologies (a Schneider Electric company) · India | 2023–2024 |
 | Data Analytics & Automation Associate | Lynk · India | 2022–2023 |
 | Head of Data & Analytics | brainsfeed · Hong Kong | 2018–2022 |
 
 ## Things I've built
 
-Full writeups at [datacortex.in](https://datacortex.in). Everything below has a public repo you can check.
+Full writeups at [datacortex.in](https://datacortex.in).
 
 **Company-intelligence tool** — Reads a company's website and works out what products they sell, returning organised data rather than plain text. Five steps: search, read the pages, pull out candidate products, merge duplicates, then decide which are real. Results that aren't confident get flagged for a person to check instead of being trusted automatically.
 
@@ -65,13 +65,10 @@ Python libraries published on PyPI.
 | [**AgentEnsemble**](https://pypi.org/project/agentensemble/) · [src](https://github.com/irfanalidv/AgentEnsemble) | Running several AI agents together — routing work between them, planning, and tracking what it costs |
 | [**nepal-gov-agent**](https://pypi.org/project/nepal-gov-agent/) · [src](https://github.com/irfanalidv/Nepal-Gov-Agent) | Answers questions about Nepal government policy and legal documents, in Nepali and English, citing the sentence each answer came from |
 | [**AgentCare**](https://pypi.org/project/agentcare/) · [src](https://github.com/irfanalidv/AgentCare) | Voice AI for healthcare — call intake, pulling out the details that matter, chasing missing information, booking appointments |
-| [**scrapeflow-py**](https://pypi.org/project/scrapeflow-py/) · [src](https://github.com/irfanalidv/scrapeflow-py) | Reading data off websites with Playwright — handles sessions, rate limits and pages that try to block you |
 | [**AskPandas**](https://pypi.org/project/askpandas/) · [src](https://github.com/irfanalidv/AskPandas) | Ask questions about a CSV in plain English, using a model running on your own machine. No API keys, nothing leaves your computer |
 | [**lingo-nlp-toolkit**](https://pypi.org/project/lingo-nlp-toolkit/) · [src](https://github.com/irfanalidv/lingo-nlp-toolkit) | Small text-processing utilities that work with both older pipelines and newer models |
 | [**PyroChain**](https://pypi.org/project/pyrochain/) · [src](https://github.com/irfanalidv/PyroChain) | Using AI agents to work out which features matter in a dataset |
 | [**toxic-comment-classifier**](https://pypi.org/project/toxic-comment-classifier/) · [src](https://github.com/irfanalidv/toxic_comment_classifier) | Detects toxic comments, with a score per category |
-| [**socialmediaextractor**](https://pypi.org/project/socialmediaextractor/) · [src](https://github.com/irfanalidv/socialmediaextractor) | Pulls social media profile links out of websites |
-| [**trustpilot-scraper**](https://pypi.org/project/trustpilot-scraper/) · [src](https://github.com/irfanalidv/trustpilot_scraper) | Collects Trustpilot reviews into a structured file |
 
 All packages: [pypi.org/user/irfanalidv](https://pypi.org/user/irfanalidv/)
 
