@@ -32,27 +32,58 @@ Master's in Data Science & AI, IISER Tirupati, 2026 (CGPA 8.9/10). English, Hind
 
 ## Things I've built
 
-Full writeups at [datacortex.in](https://datacortex.in).
+Full writeups at [datacortex.in](https://datacortex.in). Every number below comes from a published source you can check.
 
-**Company-intelligence tool** — Reads a company's website and works out what products they sell, returning organised data rather than plain text. It searches, reads the pages, pulls out candidate products, merges duplicates, then decides which are real. When it isn't sure, it holds the answer back for a person to check.
+### Company-intelligence tool
 
-I also built the test set: companies whose correct answers I checked by hand, kept fixed so every change is scored against the same list. Nothing shipped unless it held up on that set. The writeup walks through how the scoring works and what it taught me about the hard cases.
+**Finds 87% of the products a company actually sells, for about 5 cents a company.**
+
+<p>
+  <a href="https://github.com/irfanalidv/stacksift-eval"><img src="https://img.shields.io/badge/recall-87%25-00A3A3?style=flat-square" alt="Recall 87%" /></a>
+  <a href="https://github.com/irfanalidv/stacksift-eval"><img src="https://img.shields.io/badge/precision-77%25-00A3A3?style=flat-square" alt="Precision 77%" /></a>
+  <a href="https://github.com/irfanalidv/stacksift-eval"><img src="https://img.shields.io/badge/F1-0.795-0E7490?style=flat-square" alt="F1 0.795" /></a>
+  <a href="https://github.com/irfanalidv/stacksift-eval"><img src="https://img.shields.io/badge/test%20set-20%20hand--checked%20companies-334155?style=flat-square" alt="Test set: 20 hand-checked companies" /></a>
+  <a href="https://github.com/irfanalidv/stacksift-eval"><img src="https://img.shields.io/badge/full%20run-%241.10-334155?style=flat-square" alt="Full run cost $1.10" /></a>
+</p>
+
+Reads a company's website and returns the products they sell as organised data, not plain text. It works in five steps: search, read the pages, list candidate products, merge duplicates, then decide which are real. When it isn't sure, it holds the answer back for a person to check.
+
+- **Scored, not eyeballed.** I built the test set: companies whose correct answers I checked by hand, kept fixed so every change is scored against the same list. Nothing shipped unless it held up on that set.
+- **Anyone can re-check the score.** The labels, frozen predictions and scoring script are public. `python3 rescore.py` recomputes the numbers with no API keys.
+- **Cheap to run.** The full 20-company evaluation cost $1.10 in model and search calls, and no company was left out of the score.
 
 [Case study](https://datacortex.in/work/stacksift) · [Test set and scoring script](https://github.com/irfanalidv/stacksift-eval)
 
-`FastAPI` `Python` `Pydantic`
+`FastAPI` `DSPy` `Pydantic` `LangSmith` `OpenAI`
 
-**Voice check-in system** — Handles check-in phone calls and writes up what was said. Safety checks run on the raw transcript before any model is involved, and if one provider fails it falls back to another, then to fixed rules. Context from earlier calls comes from searching those transcripts rather than stuffing everything into one long prompt.
+### Voice check-in system
+
+**Built so an AI provider outage never loses a call.**
+
+Handles weekly check-in phone calls and writes up what was said. Running in production for evaluation.
+
+- **Safety before any model.** Safety checks run on the raw transcript first and flag anything as critical or elevated.
+- **Three layers of fallback.** If one analysis provider fails it moves to the next, then to fixed rules, instead of returning an error.
+- **Each call saved exactly once,** even when the phone provider reports the same call twice.
+- **Memory without giant prompts.** Context from earlier calls comes from searching past transcripts, not stuffing everything into one long prompt.
 
 [Case study](https://datacortex.in/work/reflecta)
 
-`Next.js` `Groq` `pgvector`
+`Next.js` `Bolna` `Groq` `pgvector`
 
-**Trade operations app** — Stock, billing, ledgers, credit limits and field visits for FMCG distributors, built for a phone screen. In daily use by a distributor in Nepal. No AI in the critical path here: getting the numbers right comes down to careful data handling and permissions.
+### Trade operations app
+
+**Replaced conflicting spreadsheets with one set of books. In daily use by a distributor in Nepal.**
+
+Stock, billing, ledgers, credit limits and field visits for FMCG distributors. Built solo, end to end.
+
+- **Built for the field.** Designed for phone screens, because daily sales and collections are entered on the road, not at a desk.
+- **Permissions that protect the books.** Three kinds of users (admin, staff, view-only), and view-only users can never change the accounts.
+- **No AI in the critical path.** Getting the numbers right comes down to careful data handling and permissions.
 
 [Case study](https://datacortex.in/work/godam)
 
-`Next.js` `TypeScript` `Supabase`
+`Next.js` `TypeScript` `Supabase` `Postgres`
 
 ## Open source
 
