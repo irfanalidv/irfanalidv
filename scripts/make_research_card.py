@@ -65,7 +65,7 @@ def main() -> None:
         f'<rect width="{width}" height="{height}" rx="14" fill="url(#bg)"/>',
         f'<rect width="{width}" height="{height}" rx="14" fill="url(#grid)"/>',
         f'<rect x="0" y="14" width="6" height="{height - 28}" fill="#00D1D1"/>',
-        text(pad + 24, 58, "PUBLISHED RESEARCH  ·  JOURNAL ARTICLES  ·  ORCID-LINKED", 14, "#00D1D1",
+        text(pad + 24, 58, "PUBLISHED RESEARCH  ·  PEER-REVIEWED  ·  OPEN ACCESS  ·  IISER TIRUPATI", 14, "#00D1D1",
              family=MONO, spacing="2.4"),
     ]
     for i, p in enumerate(PAPERS):

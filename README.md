@@ -127,27 +127,40 @@ All packages: [pypi.org/user/irfanalidv](https://pypi.org/user/irfanalidv/)
 
 <p align="center">
   <a href="https://orcid.org/0000-0003-0022-3047">
-    <img src="./assets/research.svg" alt="Published research: two sole-author journal papers with key results" width="100%" />
+    <img src="./assets/research.svg" alt="Published research: two sole-author, peer-reviewed, open-access journal papers with key results" width="100%" />
   </a>
 </p>
 
-**Advanced cross-validation framework for mental-health AI on MentalChat16K**
-*Indian Journal of Artificial Intelligence and Neural Networking*, vol. 6, no. 1, pp. 10–17, Dec 2025 · sole author
+Sole-author, peer-reviewed (double-anonymised) and open access, written at IISER Tirupati.
 
-<a href="https://doi.org/10.54105/ijainn.a1112.06011225"><img src="https://img.shields.io/badge/DOI-10.54105%2Fijainn.a1112.06011225-0E7490?style=flat-square&logo=doi&logoColor=white" alt="DOI 10.54105/ijainn.a1112.06011225" /></a>
-<a href="https://doi.org/10.54105/ijainn.a1112.06011225"><img src="https://img.shields.io/badge/journal-IJAINN%20%C2%B7%20ISSN%202582--7626-334155?style=flat-square" alt="Journal IJAINN" /></a>
-<a href="https://doi.org/10.54105/ijainn.a1112.06011225"><img src="https://img.shields.io/badge/data-16%2C084%20conversations-334155?style=flat-square" alt="Data: 16,084 conversations" /></a>
+### Advanced cross-validation framework for mental-health AI on MentalChat16K
+
+[*Indian Journal of Artificial Intelligence and Neural Networking*](https://www.ijainn.latticescipub.com/portfolio-item/a111206011225/), vol. 6, no. 1, pp. 10–17, Dec 2025 · sole author · IISER Tirupati
+
+<a href="https://doi.org/10.54105/ijainn.A1112.06011225"><img src="https://img.shields.io/badge/DOI-10.54105%2Fijainn.A1112.06011225-0E7490?style=flat-square&logo=doi&logoColor=white" alt="DOI 10.54105/ijainn.A1112.06011225" /></a>
+<a href="https://www.ijainn.latticescipub.com/wp-content/uploads/papers/v6i1/A111206011225.pdf"><img src="https://img.shields.io/badge/read-PDF%2C%20free-00A3A3?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Read the paper (PDF, free)" /></a>
+<a href="https://www.ijainn.latticescipub.com/portfolio-item/a111206011225/"><img src="https://img.shields.io/badge/open%20access-CC%20BY--NC--ND%204.0-F68212?style=flat-square&logo=openaccess&logoColor=white" alt="Open access, CC BY-NC-ND 4.0" /></a>
+<a href="https://www.ijainn.latticescipub.com/portfolio-item/a111206011225/"><img src="https://img.shields.io/badge/data-16%2C084%20conversations-334155?style=flat-square" alt="Data: 16,084 conversations" /></a>
 
 Benchmarks conversation AI for mental-health support on 16,084 therapy conversations (6,338 real clinical interviews). A BERT classifier reaches **86.7% accuracy and 86.1% F1**, and the gaps between models are checked with McNemar's test and bootstrap confidence intervals (p < 0.05) rather than taken at face value. The paper also documents the dataset's limits, including no demographic labels, and states that clinical validation is needed before any real-world use.
 
-**Multi-aspect temporal topic evolution for Yelp review analysis**
-*Indian Journal of Artificial Intelligence and Neural Networking*, vol. 5, no. 6, pp. 10–19, Oct 2025 · sole author
+<sub>Keywords: Mental health · Conversational AI · BERT · Neural networks · Sentiment analysis</sub>
+
+### Multi-aspect temporal topic evolution for Yelp review analysis
+
+[*Indian Journal of Artificial Intelligence and Neural Networking*](https://www.ijainn.latticescipub.com/portfolio-item/f110605061025/), vol. 5, no. 6, pp. 10–19, Oct 2025 · sole author · IISER Tirupati
 
 <a href="https://doi.org/10.54105/ijainn.F1106.05061025"><img src="https://img.shields.io/badge/DOI-10.54105%2Fijainn.F1106.05061025-0E7490?style=flat-square&logo=doi&logoColor=white" alt="DOI 10.54105/ijainn.F1106.05061025" /></a>
-<a href="https://doi.org/10.54105/ijainn.F1106.05061025"><img src="https://img.shields.io/badge/journal-IJAINN%20%C2%B7%20ISSN%202582--7626-334155?style=flat-square" alt="Journal IJAINN" /></a>
-<a href="https://doi.org/10.54105/ijainn.F1106.05061025"><img src="https://img.shields.io/badge/data-3%2C000%20reviews%20%C2%B7%20248%20metros-334155?style=flat-square" alt="Data: 3,000 reviews across 248 metros" /></a>
+<a href="https://www.ijainn.latticescipub.com/wp-content/uploads/papers/v5i6/F110605061025.pdf"><img src="https://img.shields.io/badge/read-PDF%2C%20free-00A3A3?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Read the paper (PDF, free)" /></a>
+<a href="https://www.ijainn.latticescipub.com/portfolio-item/f110605061025/"><img src="https://img.shields.io/badge/open%20access-CC%20BY--NC--ND%204.0-F68212?style=flat-square&logo=openaccess&logoColor=white" alt="Open access, CC BY-NC-ND 4.0" /></a>
+<a href="https://www.ijainn.latticescipub.com/portfolio-item/f110605061025/"><img src="https://img.shields.io/badge/data-3%2C000%20reviews%20%C2%B7%20248%20metros-334155?style=flat-square" alt="Data: 3,000 reviews · 248 metros" /></a>
+<a href="https://zenodo.org/records/17473209"><img src="https://img.shields.io/badge/archived-Zenodo-1682D4?style=flat-square&logo=zenodo&logoColor=white" alt="Archived on Zenodo" /></a>
 
 Tracks what restaurant customers talk about, and how it shifts over time, across 3,000 Yelp reviews from 1,467 businesses in 248 metro areas (2005–2018). Combines transformer-based extraction (**97.2% F1** on named entities), topic modelling (eight topics, **87.5% diversity**), sentiment forecasting (17.9% mean absolute error) and city-level comparisons that are statistically tested (p < 0.05 across 10 cities).
+
+<sub>Keywords: Topic modelling · Information extraction · Neural-symbolic learning · Temporal analysis · Business intelligence</sub>
+
+**Journal:** Indian Journal of Artificial Intelligence and Neural Networking (IJAINN), Lattice Science Publication · ISSN 2582-7626 (online) · indexed in Crossref
 
 <a href="https://orcid.org/0000-0003-0022-3047"><img src="https://img.shields.io/badge/ORCID-0000--0003--0022--3047-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID 0000-0003-0022-3047" /></a>
 
