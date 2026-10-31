@@ -71,19 +71,31 @@ Handles weekly check-in phone calls and writes up what was said. Running in prod
 
 `Next.js` `Bolna` `Groq` `pgvector`
 
-### Trade operations app
+### Godam: trade desk for Nepal's FMCG distributors
 
-**Replaced conflicting spreadsheets with one set of books. In daily use by a distributor in Nepal.**
+**Co-founded and built solo. A live product that replaced four nightly notebooks with one set of books, in daily use by its first distributor.**
 
-Stock, billing, ledgers, credit limits and field visits for FMCG distributors. Built solo, end to end.
+<p>
+  <a href="https://getgodam.com"><img src="https://img.shields.io/badge/status-live%20product-00A3A3?style=flat-square" alt="Status: live product" /></a>
+  <a href="https://getgodam.com"><img src="https://img.shields.io/badge/first%20deployment-daily%20use%20in%20Nepal-0E7490?style=flat-square" alt="First deployment: daily use in Nepal" /></a>
+  <a href="https://getgodam.com"><img src="https://img.shields.io/badge/modules-15-334155?style=flat-square" alt="15 modules" /></a>
+  <a href="https://getgodam.com"><img src="https://img.shields.io/badge/languages-EN%20%C2%B7%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80%20%C2%B7%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-334155?style=flat-square" alt="Languages: English, Nepali, Hindi" /></a>
+</p>
 
-- **Built for the field.** Designed for phone screens, because daily sales and collections are entered on the road, not at a desk.
-- **Permissions that protect the books.** Three kinds of users (admin, staff, view-only), and view-only users can never change the accounts.
+> "Before Godam, I balanced four notebooks every night — cash, godown, cheques, udhaaro."
+> — Sumit Pokhrel, co-founder and first user, Suju Construction & Trading
+
+Stock, sales, cash, cheques, credit and field visits for distributors who supply 40–80 retailers across a district, built for a phone screen.
+
+- **Shaped by daily use.** Built in April 2026, then four rounds of features shipped from the distributor's real requests: receipts and vouchers, bill-by-bill payment matching, cheque reminders, Tally-style statements.
+- **Speaks the business's language.** Statements in Nepali (Bikram Sambat) dates, VAT and PAN on every party, sauda (advance deal) book, credit aging, and one-tap PDF sharing on WhatsApp.
+- **Built for the field.** Installs on any phone from the browser, because daily sales and collections are entered on the road, not at a desk.
+- **Permissions that protect the books.** Owner, staff and view-only roles; view-only users can never change the accounts.
 - **No AI in the critical path.** Getting the numbers right comes down to careful data handling and permissions.
 
-[Case study](https://datacortex.in/work/godam)
+[Product site](https://getgodam.com) · [Case study](https://datacortex.in/work/godam)
 
-`Next.js` `TypeScript` `Supabase` `Postgres`
+`Next.js` `TypeScript` `Supabase` `Postgres` `PWA`
 
 ## Open source
 
