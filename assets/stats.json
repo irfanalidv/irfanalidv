@@ -1,0 +1,101 @@
+{
+  "toxic_comment_classifier": {
+    "name": "toxic-comment-classifier",
+    "pkg": "toxic_comment_classifier",
+    "repo": "toxic_comment_classifier",
+    "downloads": 16000,
+    "monthly": 14,
+    "releases": 17,
+    "first": "2025-03-24",
+    "version": "0.4.0",
+    "stars": 1
+  },
+  "lingo-nlp-toolkit": {
+    "name": "lingo-nlp-toolkit",
+    "pkg": "lingo-nlp-toolkit",
+    "repo": "lingo-nlp-toolkit",
+    "downloads": 7000,
+    "monthly": 15,
+    "releases": 6,
+    "first": "2025-08-15",
+    "version": "2.4.0",
+    "stars": 1
+  },
+  "ragfallback": {
+    "name": "ragfallback",
+    "pkg": "ragfallback",
+    "repo": "ragfallback",
+    "downloads": 6000,
+    "monthly": 29,
+    "releases": 10,
+    "first": "2025-12-03",
+    "version": "2.3.0",
+    "stars": 2
+  },
+  "nepal-gov-agent": {
+    "name": "nepal-gov-agent",
+    "pkg": "nepal-gov-agent",
+    "repo": "Nepal-Gov-Agent",
+    "downloads": 5000,
+    "monthly": 13,
+    "releases": 9,
+    "first": "2026-03-29",
+    "version": "0.5.0",
+    "stars": 0
+  },
+  "agentensemble": {
+    "name": "AgentEnsemble",
+    "pkg": "agentensemble",
+    "repo": "AgentEnsemble",
+    "downloads": 4000,
+    "monthly": 37,
+    "releases": 5,
+    "first": "2025-12-08",
+    "version": "0.5.0",
+    "stars": 1
+  },
+  "agentcare": {
+    "name": "AgentCare",
+    "pkg": "agentcare",
+    "repo": "AgentCare",
+    "downloads": 4000,
+    "monthly": 51,
+    "releases": 5,
+    "first": "2026-03-08",
+    "version": "0.3.0",
+    "stars": 1
+  },
+  "askpandas": {
+    "name": "AskPandas",
+    "pkg": "askpandas",
+    "repo": "AskPandas",
+    "downloads": 3000,
+    "monthly": 25,
+    "releases": 3,
+    "first": "2025-08-16",
+    "version": "0.2.0",
+    "stars": 1
+  },
+  "ragnav": {
+    "name": "RAGNav",
+    "pkg": "ragnav",
+    "repo": "RAGNav",
+    "downloads": 2000,
+    "monthly": 17,
+    "releases": 5,
+    "first": "2026-03-06",
+    "version": "0.5.1",
+    "stars": 1
+  },
+  "pyrochain": {
+    "name": "PyroChain",
+    "pkg": "pyrochain",
+    "repo": "PyroChain",
+    "downloads": 1000,
+    "monthly": 5,
+    "releases": 2,
+    "first": "2025-09-17",
+    "version": "0.2.0",
+    "stars": 1
+  }
+}

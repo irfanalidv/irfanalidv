@@ -56,19 +56,27 @@ I also built the test set: companies whose correct answers I checked by hand, ke
 
 ## Open source
 
-Python libraries published on PyPI.
+Python libraries I build and maintain on PyPI. Numbers below refresh daily.
 
-| Library | What it does |
-| --- | --- |
-| [**RAGNav**](https://pypi.org/project/ragnav/) · [src](https://github.com/irfanalidv/RAGNav) | Search that combines keyword matching with meaning-based matching, so a question can be found either way. [Benchmark script and results](https://github.com/irfanalidv/RAGNav/blob/main/benchmarks/results/squad_results.txt) are in the repo |
-| [**ragfallback**](https://pypi.org/project/ragfallback/) · [src](https://github.com/irfanalidv/ragfallback) | Stops a search-and-answer system failing quietly. Rewrites weak queries, scores how confident the results are, and falls back when they're poor |
-| [**AgentEnsemble**](https://pypi.org/project/agentensemble/) · [src](https://github.com/irfanalidv/AgentEnsemble) | Running several AI agents together — routing work between them, planning, and tracking what it costs |
-| [**nepal-gov-agent**](https://pypi.org/project/nepal-gov-agent/) · [src](https://github.com/irfanalidv/Nepal-Gov-Agent) | Answers questions about Nepal government policy and legal documents, in Nepali and English, citing the sentence each answer came from |
-| [**AgentCare**](https://pypi.org/project/agentcare/) · [src](https://github.com/irfanalidv/AgentCare) | Voice AI for healthcare — call intake, pulling out the details that matter, chasing missing information, booking appointments |
-| [**AskPandas**](https://pypi.org/project/askpandas/) · [src](https://github.com/irfanalidv/AskPandas) | Ask questions about a CSV in plain English, using a model running on your own machine. No API keys, nothing leaves your computer |
-| [**lingo-nlp-toolkit**](https://pypi.org/project/lingo-nlp-toolkit/) · [src](https://github.com/irfanalidv/lingo-nlp-toolkit) | Small text-processing utilities that work with both older pipelines and newer models |
-| [**PyroChain**](https://pypi.org/project/pyrochain/) · [src](https://github.com/irfanalidv/PyroChain) | Using AI agents to work out which features matter in a dataset |
-| [**toxic-comment-classifier**](https://pypi.org/project/toxic-comment-classifier/) · [src](https://github.com/irfanalidv/toxic_comment_classifier) | Detects toxic comments, with a score per category |
+<p align="center">
+  <a href="https://pypi.org/user/irfanalidv/">
+    <img src="./assets/impact.svg" alt="Open-source impact: Python libraries on PyPI, total and monthly downloads, releases, and downloads per library" width="100%" />
+  </a>
+</p>
+
+<!-- LIBS:START -->
+| Library | What it does | Live stats |
+| --- | --- | --- |
+| [**toxic-comment-classifier**](https://github.com/irfanalidv/toxic_comment_classifier) | Detects toxic comments, with a score per category (toxic, insult, threat and more) | [![PyPI version](https://img.shields.io/pypi/v/toxic_comment_classifier?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/toxic_comment_classifier/) [![Total downloads](https://img.shields.io/pepy/dt/toxic_comment_classifier?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/toxic_comment_classifier) |
+| [**lingo-nlp-toolkit**](https://github.com/irfanalidv/lingo-nlp-toolkit) | Text-processing toolkit on Hugging Face models: classification, entities, sentiment, question answering, summarisation, embeddings | [![PyPI version](https://img.shields.io/pypi/v/lingo-nlp-toolkit?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/lingo-nlp-toolkit/) [![Total downloads](https://img.shields.io/pepy/dt/lingo-nlp-toolkit?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/lingo-nlp-toolkit) |
+| [**ragfallback**](https://github.com/irfanalidv/ragfallback) | Stops a search-and-answer system failing quietly. Rewrites weak queries, scores how confident the results are, and falls back when they're poor | [![PyPI version](https://img.shields.io/pypi/v/ragfallback?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/ragfallback/) [![Total downloads](https://img.shields.io/pepy/dt/ragfallback?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/ragfallback) |
+| [**nepal-gov-agent**](https://github.com/irfanalidv/Nepal-Gov-Agent) | Answers questions about Nepal government policy and legal documents, in Nepali and English, citing the sentence each answer came from | [![PyPI version](https://img.shields.io/pypi/v/nepal-gov-agent?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/nepal-gov-agent/) [![Total downloads](https://img.shields.io/pepy/dt/nepal-gov-agent?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/nepal-gov-agent) |
+| [**AgentEnsemble**](https://github.com/irfanalidv/AgentEnsemble) | Running several AI agents together: routing work between them, planning, and tracking what it costs. Works with OpenAI or Mistral | [![PyPI version](https://img.shields.io/pypi/v/agentensemble?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/agentensemble/) [![Total downloads](https://img.shields.io/pepy/dt/agentensemble?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/agentensemble) |
+| [**AgentCare**](https://github.com/irfanalidv/AgentCare) | Voice AI for healthcare: call intake, pulling out the details that matter, chasing missing information, booking appointments | [![PyPI version](https://img.shields.io/pypi/v/agentcare?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/agentcare/) [![Total downloads](https://img.shields.io/pepy/dt/agentcare?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/agentcare) |
+| [**AskPandas**](https://github.com/irfanalidv/AskPandas) | Ask questions about a CSV in plain English. Runs on a local model by default, so nothing leaves your computer, or on OpenAI / Mistral | [![PyPI version](https://img.shields.io/pypi/v/askpandas?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/askpandas/) [![Total downloads](https://img.shields.io/pepy/dt/askpandas?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/askpandas) |
+| [**RAGNav**](https://github.com/irfanalidv/RAGNav) | Search that combines keyword matching with meaning-based matching, so a question can be found either way. Answers cite the passage they came from | [![PyPI version](https://img.shields.io/pypi/v/ragnav?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/ragnav/) [![Total downloads](https://img.shields.io/pepy/dt/ragnav?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/ragnav) |
+| [**PyroChain**](https://github.com/irfanalidv/PyroChain) | Using AI agents and a fine-tuned language model to work out which features matter in a dataset | [![PyPI version](https://img.shields.io/pypi/v/pyrochain?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/pyrochain/) [![Total downloads](https://img.shields.io/pepy/dt/pyrochain?style=flat-square&label=downloads&color=00A3A3)](https://pepy.tech/projects/pyrochain) |
+<!-- LIBS:END -->
 
 All packages: [pypi.org/user/irfanalidv](https://pypi.org/user/irfanalidv/)
 
