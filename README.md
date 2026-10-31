@@ -8,6 +8,7 @@
   [![LinkedIn](https://img.shields.io/badge/linkedin-irfanalidv-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfanalidv/)
   [![PyPI](https://img.shields.io/badge/pypi-irfanalidv-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/user/irfanalidv/)
   [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0022--3047-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-0022-3047)
+  [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Irfan%20Ali-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=RBoHG8sAAAAJ&hl=en)
   [![Email](https://img.shields.io/badge/email-irfan.ali%40datacortex.in-D14836?style=flat-square)](mailto:irfan.ali@datacortex.in)
 
 </div>
@@ -132,6 +133,7 @@ All packages: [pypi.org/user/irfanalidv](https://pypi.org/user/irfanalidv/)
 </p>
 
 Sole-author, peer-reviewed (double-anonymised) and open access, written at IISER Tirupati.
+Research interests: natural language processing, information extraction, conversational AI, neural information retrieval.
 
 ### Advanced cross-validation framework for mental-health AI on MentalChat16K
 
@@ -163,6 +165,7 @@ Tracks what restaurant customers talk about, and how it shifts over time, across
 **Journal:** Indian Journal of Artificial Intelligence and Neural Networking (IJAINN), Lattice Science Publication · ISSN 2582-7626 (online) · indexed in Crossref
 
 <a href="https://orcid.org/0000-0003-0022-3047"><img src="https://img.shields.io/badge/ORCID-0000--0003--0022--3047-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID 0000-0003-0022-3047" /></a>
+<a href="https://scholar.google.com/citations?user=RBoHG8sAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-verified%20at%20IISER%20Tirupati-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar profile, verified email at IISER Tirupati" /></a>
 
 ## Contact
 
