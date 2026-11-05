@@ -56,5 +56,5 @@
 <rect x="330" y="538" width="720" height="22" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
 <rect x="330" y="538" width="85" height="22" rx="5" fill="url(#bar)"/>
 <text x="1066" y="554" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600">2k<tspan fill="#94A3B8" font-weight="400">  &#183;  v0.3.0</tspan></text>
-<text x="72" y="606" fill="#64748B" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Maintained since 2025  &#183;  updated 2026-11-04 by a daily GitHub Action  &#183;  all-time downloads from pepy.tech</text>
+<text x="72" y="606" fill="#64748B" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Maintained since 2025  &#183;  updated 2026-11-05 by a daily GitHub Action  &#183;  all-time downloads from pepy.tech</text>
 </svg>
